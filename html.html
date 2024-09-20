@@ -1,0 +1,70 @@
+<html><head>
+    <title>4th SEM SGPA Calculator </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1><b><i>SGPA Calculator</i></b> </h1>
+    <table>
+        <tbody><tr>
+            <th><h2>CODE</h2></th>
+            <th><h2>SUBJECT</h2></th>
+            <th><h2>MARKS</h2></th>
+        </tr>
+        <tr>
+            <td>BCS401</td>
+            <td>ANALYSIS & DESIGN OF ALGORITHMS</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td>BCS402 / BAD402</td>
+            <td>MICROCONTROLLERS / ARTIFICIAL INTELLIGENCE</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td> BCS403</td>
+            <td>DATABASE MANAGEMENT SYSTEMS</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td> BCSL404</td>
+            <td>ANALYSIS & DESIGN OF ALGORITHMS LAB</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td> BBOC407</td>
+            <td>BIOLOGY FOR COMPUTER ENGINEERS</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td> BUHK408</td>
+            <td>UNIVERSAL HUMAN VALUES COURSE</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td>BCS405X</td>
+            <td>MATHEMATICS</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td>BDSL456X</td>
+            <td> UI/UX / MONGODB / JULIA</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+    </tbody></table>
+    <div class="total-marks" id="sgpaDisplay"></div>
+    <div class="buttons">
+        <button onclick="calculateSGPA()">Calculate SGPA</button>
+        <button class="reset" onclick="resetMarks()">Reset</button>
+    </div>
+
+
+    <footer>
+        © Syed Javed M                
+    </footer>
+
+    <script src="main.js"></script>
+
+
+
+
+  </body></html>
